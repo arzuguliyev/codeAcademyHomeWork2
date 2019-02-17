@@ -1,0 +1,133 @@
+.our-products
+{  
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+   
+   
+
+} 
+
+ .product-cards
+{   
+    width: 68%;
+    
+    
+} 
+
+
+.sale
+{
+    position: absolute;
+    bottom: 285px;}
+
+.sale span
+{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+.product-card
+{
+    position: relative;
+    align-items: center;
+    width: 22%;
+    overflow: hidden;
+    
+    
+}
+
+.product-card-photo
+{
+    width: 100%;
+
+}
+
+.product-card-photo img
+{
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+
+.product-card-photo img:hover
+{
+     transform: scale(1.2);
+}
+
+
+.product-description
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-name
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+ 
+}
+
+.product-price span:nth-child(2)
+{
+    color: red;
+}
+
+.buy-button
+{
+  margin-top: 10px;
+}
+
+.buy-button button
+{
+    color: white;
+    background-color: #ff4e75;
+    height: 30px;
+    border: none;
+    border-radius: 5%;
+    transition: 0.4s;
+    
+}
+
+.buy-button button:hover
+{
+  background-color: black;
+    
+}
+
+.opacity
+{
+   
+    width: 100%;
+    height: 206px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;   
+    position: absolute;
+    bottom: 110px;
+    
+   }
+
+ 
+.opacity i 
+{
+    margin-top: 92px;
+    margin-left: 85px;
+    color: #ff4e75;
+    background-color: white;
+}
+
+
+.product-card-photo img:hover + div
+{
+     display: block;
+}
+
+.opacity:hover
+{
+   display: block;
+   }

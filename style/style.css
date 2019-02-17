@@ -1,0 +1,426 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* container started */
+.container
+{
+    width: 100%;
+}
+
+/* top-container started */
+.top-container
+{   
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/coffee.jpg);
+    background-size: cover;
+}
+
+/* header started */
+.header
+{
+    width: 100%;
+   
+}
+
+.fixed
+{
+   
+    width: 100%;
+}
+
+/* header-top started */
+
+.header-top
+{ 
+    background: #242221;
+}
+.icons
+{
+    display: flex;
+    width: 88%;
+    justify-content: flex-end;
+    
+    
+}
+
+.icons i 
+{
+   color: grey;
+   padding: 7px;
+   margin-left: 4px;
+}
+
+.icons span
+{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 50%;
+    font-size: 11px;
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 24px;
+}
+
+/* header-top end */
+
+/* log-menu started */
+
+.menu-logo
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background:rgba(255,255,255, 0.3);
+}
+
+
+.menu-logo-container
+{
+  display: flex;
+  width: 68%;
+  justify-content: space-between;
+ 
+}
+
+.logo-slogan
+{
+    display: flex;
+  
+    
+}
+
+.logo
+{
+    width: 20%;
+   
+}
+
+.logo > img 
+{
+    width: 50%;
+}
+
+.slogan
+{ 
+    color: white;
+    align-self: center;
+}
+
+#menu
+{
+    align-self: center;
+}
+
+#menu ul
+{
+    list-style: none;
+    
+}
+
+#menu ul li 
+{
+    display: inline;
+    padding-left: 5px;
+}
+
+
+#menu ul li a 
+{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+
+#menu ul li a 
+{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#menu ul li a:hover
+{
+    color: #dc003b;
+}
+
+/* log-menu end */
+
+/* header-bottom started */
+.header-bottom
+{
+    display: flex;
+    width: 100%;
+    height: 700px;
+ 
+    justify-content: center;
+}
+
+.header-bottom-container
+{
+    width: 50%;
+    text-align: center;
+    align-self: center;
+}
+
+
+.bottom-slogan
+{
+    border-bottom: 4px solid white; 
+}
+
+
+.bottom-slogan h1
+{
+   color: white; 
+   font-size: 6em;
+   font-family: 'Felipa', cursive;
+}
+
+.bottom-second-slogan{
+    margin-top: 10px;
+    border-top: 2px solid white;
+}
+
+.bottom-second-slogan h3
+{
+    padding: 5px;
+    color: white;   
+}
+
+.bottom-description
+{
+    color: white;
+}
+/* header-bottom end */
+/* header end */
+/* top-container end */
+
+/* main started */
+.main
+{
+    width: 100%;
+}
+/* main strarted */
+.main-slogan
+{
+    
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+
+.main-slogan h1
+{
+    font-size: 3em;
+}
+
+.design-border
+{
+    width: 80px;
+    height: 15px;
+    border-top: 7px solid black;
+    border-bottom: 2px solid black;
+}
+
+.cards
+{   
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 60px;
+     
+
+}
+
+.card
+{
+    width: 30%;
+    position: relative;
+  
+}
+
+.card img
+{
+    width: 100%;
+    height: 300px;
+    transition: 0.5s;
+}
+
+
+
+.img-desc
+{
+ width: 100%;   
+ display: flex;
+ flex-direction: column;   
+ position: absolute;
+ align-items: center;
+ bottom: 50px;
+ color: white;
+}
+.card-design-border
+{
+    width: 80px;
+    height: 15px;
+    border-top: 7px solid white;
+    border-bottom: 2px solid white;
+}
+
+.img-desc span
+{
+    
+    margin-top: 96px;
+    margin-left: 87px;
+    
+}
+
+.our-products
+{  
+    margin-top: 30px;
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+   
+   
+
+} 
+
+ .product-cards
+{   display: flex;
+    justify-content: space-between;
+    width: 68%;
+    
+    
+} 
+
+
+.sale
+{
+    position: absolute;
+    bottom: 285px;}
+
+.sale span
+{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10%;
+}
+
+.product-card
+{
+    position: relative;
+    align-items: center;
+    width: 22%;
+    overflow: hidden;
+    
+    
+}
+
+.product-card-photo
+{
+    width: 100%;
+
+}
+
+.product-card-photo img
+{
+    width: 100%;
+    transition: 0.5s;
+    position: relative;
+}
+
+.product-card-photo img:hover
+{
+     transform: scale(1.2);
+}
+
+
+.product-description
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-name
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+ 
+}
+
+.product-price span:nth-child(2)
+{
+    color: red;
+}
+
+.buy-button
+{
+  margin-top: 10px;
+}
+
+.buy-button button
+{
+    color: white;
+    background-color: #ff4e75;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5%;
+    transition: 0.4s;
+    
+}
+
+.buy-button button:hover
+{
+  background-color: black;
+    
+}
+
+.opacity
+{
+   
+    width: 100%;
+    height: 206px;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;   
+    position: absolute;
+    bottom: 83px;
+    
+   }
+
+ 
+.opacity i 
+{
+    margin-top: 92px;
+    margin-left: 85px;
+    color: #ff4e75;
+    background-color: white;
+}
+
+
+.product-card-photo img:hover + div
+{
+     display: block;
+}
+
+.opacity:hover
+{
+   display: block;
+   }
+
+
+.
+/* main end */
+/* container end */
